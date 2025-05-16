@@ -36,14 +36,16 @@ A web-based application to help users:
 ```
 
 🚀 Tech Stack
-Layer Technology
-Frontend AngularJS
-Backend Spring Boot (Java)
-Database PostgreSQL / Oracle
-Cloud AWS / Azure
-Architecture Microservices
-APIs RESTful APIs
-Monitoring Spring Actuator (optional)
+| Layer        | Technology                 |
+| ------------ | -------------------------- |
+| Frontend     | AngularJS                  |
+| Backend      | Spring Boot (Java)         |
+| Database     | PostgreSQL / Oracle        |
+| Cloud        | AWS / Azure                |
+| Architecture | Microservices              |
+| APIs         | RESTful APIs               |
+| Monitoring   | Spring Actuator (optional) |
+
 
 📂 Folder Structure (Coming Soon)
 /frontend – AngularJS App
