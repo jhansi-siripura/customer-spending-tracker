@@ -34,3 +34,37 @@ A web-based application to help users:
                                  |
                   [ AWS Cloud Services / Azure Equivalent ]
 ```
+
+🚀 Tech Stack
+
+| Layer        | Technology                 |
+| ------------ | -------------------------- |
+| Frontend     | AngularJS                  |
+| Backend      | Spring Boot (Java)         |
+| Database     | PostgreSQL / Oracle        |
+| Cloud        | AWS / Azure                |
+| Architecture | Microservices              |
+| APIs         | RESTful APIs               |
+| Monitoring   | Spring Actuator (optional) |
+
+Folder Structure (Coming Soon)
+
+/frontend --> AngularJS App
+/backend --> Spring Boot App
+/spending-service --> Microservice for tracking spends
+/analytics-service --> Microservice for insights & reports
+/notification-service --> Alerts/Email/SMS logic
+/docs --> Design, Requirements, API Specs
+
+Future Features
+🔔 Spending alerts based on thresholds
+
+📊 Pie/bar charts for visual spend analysis
+
+🔍 Searchable and filterable spend logs
+
+🤖 Predictive analysis for future budgeting
+
+📥 Excel/PDF export of reports
+
+📧 Email notifications for daily/weekly summaries
