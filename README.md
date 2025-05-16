@@ -36,27 +36,29 @@ A web-based application to help users:
 ```
 
 🚀 Tech Stack
+Layer Technology
+Frontend AngularJS
+Backend Spring Boot (Java)
+Database PostgreSQL / Oracle
+Cloud AWS / Azure
+Architecture Microservices
+APIs RESTful APIs
+Monitoring Spring Actuator (optional)
 
-| Layer        | Technology                 |
-| ------------ | -------------------------- |
-| Frontend     | AngularJS                  |
-| Backend      | Spring Boot (Java)         |
-| Database     | PostgreSQL / Oracle        |
-| Cloud        | AWS / Azure                |
-| Architecture | Microservices              |
-| APIs         | RESTful APIs               |
-| Monitoring   | Spring Actuator (optional) |
+📂 Folder Structure (Coming Soon)
+/frontend – AngularJS App
 
-Folder Structure (Coming Soon)
+/backend – Spring Boot App
 
-/frontend --> AngularJS App
-/backend --> Spring Boot App
-/spending-service --> Microservice for tracking spends
-/analytics-service --> Microservice for insights & reports
-/notification-service --> Alerts/Email/SMS logic
-/docs --> Design, Requirements, API Specs
+/spending-service – Microservice for tracking spends
 
-Future Features
+/analytics-service – Microservice for insights & reports
+
+/notification-service – Alerts/Email/SMS logic
+
+/docs – Design, Requirements, API Specs
+
+🔮 Future Features
 🔔 Spending alerts based on thresholds
 
 📊 Pie/bar charts for visual spend analysis
