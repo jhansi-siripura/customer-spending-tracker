@@ -48,12 +48,14 @@ A web-based application to help users:
 
 
 📂 Folder Structure (Coming Soon)
+```text
 /frontend                --> AngularJS App
 /backend                 --> Spring Boot App
 /spending-service        --> Microservice for tracking spends
 /analytics-service       --> Microservice for insights & reports
 /notification-service    --> Alerts/Email/SMS logic
 /docs                    --> Design, Requirements, API Specs
+```
 
 
 🔮 Future Features
