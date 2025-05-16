@@ -70,3 +70,9 @@ A web-based application to help users:
 📥 Excel/PDF export of reports
 
 📧 Email notifications for daily/weekly summaries
+
+
+👩‍💻 Author
+Jhansi Siripura
+🔗 GitHub
+📬 jhansisiripura@gmail.com
