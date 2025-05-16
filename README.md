@@ -48,17 +48,13 @@ A web-based application to help users:
 
 
 📂 Folder Structure (Coming Soon)
-/frontend – AngularJS App
+/frontend                --> AngularJS App
+/backend                 --> Spring Boot App
+/spending-service        --> Microservice for tracking spends
+/analytics-service       --> Microservice for insights & reports
+/notification-service    --> Alerts/Email/SMS logic
+/docs                    --> Design, Requirements, API Specs
 
-/backend – Spring Boot App
-
-/spending-service – Microservice for tracking spends
-
-/analytics-service – Microservice for insights & reports
-
-/notification-service – Alerts/Email/SMS logic
-
-/docs – Design, Requirements, API Specs
 
 🔮 Future Features
 🔔 Spending alerts based on thresholds
