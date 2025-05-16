@@ -1,23 +1,36 @@
-# spending-tracker
+# 💸 Customer Spending Tracker
 
-Track spending habits of users with Spring Boot + Angular stack.
+[![GitHub stars](https://img.shields.io/github/stars/jhansi-siripura/customer-spending-tracker?style=social)](https://github.com/jhansi-siripura/customer-spending-tracker/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/jhansi-siripura/customer-spending-tracker?style=social)](https://github.com/jhansi-siripura/customer-spending-tracker/network)
+[![GitHub issues](https://img.shields.io/github/issues/jhansi-siripura/customer-spending-tracker)](https://github.com/jhansi-siripura/customer-spending-tracker/issues)
+[![GitHub license](https://img.shields.io/github/license/jhansi-siripura/customer-spending-tracker)](https://github.com/jhansi-siripura/customer-spending-tracker/blob/main/LICENSE)
 
-🌟 Project Idea: Customer Spending Tracker
-🎯 Objective
-A web-based application to track and analyze a customer’s spending habits across various categories like groceries, utilities, travel, etc., with visual dashboards, alerts, and predictive insights.
+---
 
-🏗️ Big Picture Architecture (High-Level)
+## 🎯 Objective
 
-[ AngularJS Frontend ] <===> [ Spring Boot Backend - REST APIs ]
-|
-v
-[ Microservices Layer ]
-/ | \
- [ Spending Service ] [ Analytics Service ] [ Notification Service ]
-\_**\_\_\_**|****\_****/
-|
-[ PostgreSQL / Oracle DB ]
-|
-[ Data Integration Layer ]
-|
-[ AWS Cloud Services / Azure Equivalent ]
+A web-based application to help users:
+
+- Track spending across categories (Groceries, Utilities, Travel, etc.)
+- Analyze monthly and yearly trends
+- Visualize data with charts
+- Get alerts and insights on overspending
+- Plan future budgets with predictive analytics
+
+---
+
+## 🏗️ Architecture Diagram
+
+```text
+[ AngularJS Frontend ] <===> [ Spring Boot Backend (REST APIs) ]
+                                 |
+                          [ Microservices Layer ]
+                             /     |      \
+            [ Spending Service ][ Analytics Service ][ Notification Service ]
+                                 |
+                            [ PostgreSQL / Oracle DB ]
+                                 |
+                        [ Data Integration Layer ]
+                                 |
+                  [ AWS Cloud Services / Azure Equivalent ]
+```
