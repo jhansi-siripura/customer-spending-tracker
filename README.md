@@ -36,27 +36,26 @@ A web-based application to help users:
 ```
 
 🚀 Tech Stack
-Layer Technology
-Frontend AngularJS
-Backend Spring Boot (Java)
-Database PostgreSQL / Oracle
-Cloud AWS / Azure
-Architecture Microservices
-APIs RESTful APIs
-Monitoring Spring Actuator (optional)
+| Layer | Technology |
+| ------------ | -------------------------- |
+| Frontend | AngularJS |
+| Backend | Spring Boot (Java) |
+| Database | PostgreSQL / Oracle |
+| Cloud | AWS / Azure |
+| Architecture | Microservices |
+| APIs | RESTful APIs |
+| Monitoring | Spring Actuator (optional) |
 
 📂 Folder Structure (Coming Soon)
-/frontend – AngularJS App
 
-/backend – Spring Boot App
-
-/spending-service – Microservice for tracking spends
-
-/analytics-service – Microservice for insights & reports
-
-/notification-service – Alerts/Email/SMS logic
-
-/docs – Design, Requirements, API Specs
+```text
+/frontend                --> AngularJS App
+/backend                 --> Spring Boot App
+/spending-service        --> Microservice for tracking spends
+/analytics-service       --> Microservice for insights & reports
+/notification-service    --> Alerts/Email/SMS logic
+/docs                    --> Design, Requirements, API Specs
+```
 
 🔮 Future Features
 🔔 Spending alerts based on thresholds
@@ -97,3 +96,8 @@ Expand an endpoint and click "Try it out" to test.
 Fill the request body and path params.
 
 Click Execute to submit and view response.
+
+👩‍💻 Author
+Jhansi Siripura
+🔗 GitHub
+📬 jhansisiripura@gmail.com
