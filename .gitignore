@@ -73,3 +73,6 @@ application-*.yml
 .settings/
 .apt_generated/
 .factorypath
+
+
+.DS_Store

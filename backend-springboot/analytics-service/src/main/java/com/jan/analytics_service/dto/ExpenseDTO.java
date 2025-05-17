@@ -1,13 +1,10 @@
-package com.jan.spending_service.dto;
+package com.jan.analytics_service.dto;
 
 import java.time.LocalDate;
-
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import lombok.Data;
 
 @Data
-@JsonIgnoreProperties(ignoreUnknown = true)
 public class ExpenseDTO {
     private String category;
     private String description;
