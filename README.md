@@ -19,6 +19,10 @@ A web-based application to help users:
 
 ---
 
+## 🔗 UI Prototype (Live)
+
+👉 [Click here to view UI prototype](https://jhansi-siripura.github.io/customer-spending-tracker/frontend_prototype/)
+
 ## 🏗️ Architecture Diagram
 
 ```text
@@ -96,6 +100,18 @@ Expand an endpoint and click "Try it out" to test.
 Fill the request body and path params.
 
 Click Execute to submit and view response.
+
+🔄 Frontend-Backend Flow (Simplified)
+plaintext
+Copy
+Edit
+[Login Form] ---> [POST /login] ---> [Receives JWT Token]
+↓
+[Save JWT in LocalStorage]
+↓
+[JWT Interceptor adds it to all backend API requests]
+↓
+[Backend validates JWT before allowing access to resources]
 
 👩‍💻 Author
 Jhansi Siripura
