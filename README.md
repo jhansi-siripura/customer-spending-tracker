@@ -70,3 +70,30 @@ Monitoring Spring Actuator (optional)
 📥 Excel/PDF export of reports
 
 📧 Email notifications for daily/weekly summaries
+
+👉 Make sure Lombok is installed in Eclipse: download `lombok.jar` from https://projectlombok.org/download and run `java -jar lombok.jar` to install it into Eclipse (required for @Data and other annotations to work).
+
+🔍 API Documentation
+This project includes interactive API documentation using Swagger UI via Springdoc OpenAPI.
+
+Base URL (local): http://localhost:8080
+
+Swagger UI: http://localhost:8080/swagger-ui.html
+
+OpenAPI Spec JSON: http://localhost:8080/v3/api-docs
+
+Example Endpoints:
+Method Endpoint Description
+POST /api/expenses/user/{userId} Add a new expense for user
+GET /api/expenses/user/{userId} Get all expenses by user
+
+📦 How to Use
+Start the Spring Boot application.
+
+Visit /swagger-ui.html in your browser.
+
+Expand an endpoint and click "Try it out" to test.
+
+Fill the request body and path params.
+
+Click Execute to submit and view response.
