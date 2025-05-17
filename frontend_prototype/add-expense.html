@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add Expense</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="add-expense.html">Add Expense</a>
+      <a href="view-expenses.html">View Expenses</a>
+      <a href="index.html">Logout</a>
+    </nav>
+
+    <div class="add-expense-container">
+      <h2>Add New Expense</h2>
+      <form>
+        <input type="text" placeholder="Expense Title" required />
+        <input type="number" placeholder="Amount" required />
+        <input type="date" required />
+        <select>
+          <option>Food</option>
+          <option>Transport</option>
+          <option>Bills</option>
+          <option>Other</option>
+        </select>
+        <button type="submit">Save</button>
+      </form>
+    </div>
+  </body>
+</html>

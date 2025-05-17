@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="add-expense.html">Add Expense</a>
+      <a href="view-expenses.html">View Expenses</a>
+      <a href="index.html">Logout</a>
+    </nav>
+
+    <div class="dashboard-container">
+      <h2>Welcome, User</h2>
+      <div class="dashboard-cards">
+        <div class="card">💰<br />Total Spent: ₹4,200</div>
+        <div class="card">📊<br />Monthly Report</div>
+        <div class="card">📂<br />Categories: Food, Bills, etc.</div>
+      </div>
+      <div class="dashboard-buttons">
+        <button onclick="location.href='add-expense.html'">
+          ➕ Add Expense
+        </button>
+        <button onclick="location.href='view-expenses.html'">
+          📄 View Expenses
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
