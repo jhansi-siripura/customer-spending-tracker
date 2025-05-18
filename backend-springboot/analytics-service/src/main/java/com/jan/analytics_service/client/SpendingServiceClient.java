@@ -20,7 +20,7 @@ public class SpendingServiceClient {
     }
 
     public List<ExpenseDTO> getExpensesByUser(Long userId) {
-        String url = "http://localhost:8080/api/expenses/user/" + userId;
+        String url = "http://localhost:8082/api/expenses/user/" + userId;
         ResponseEntity<ExpenseDTO[]> response = restTemplate.getForEntity(url, ExpenseDTO[].class);
         return Arrays.asList(response.getBody());
     }
